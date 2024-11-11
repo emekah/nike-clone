@@ -47,3 +47,47 @@ export const shoes = [
     { image: SportFive, button:"Runnin" },
     { image: SportSix, button:"Yoga" },
   ];
+
+  export const footerLinks = [
+    {
+        title: "Resources",
+        links: [
+            {name: "Gift", link: "/"},
+            {name: "Find A Store", link: "/"},
+            {name: "Nike Journal", link: "/"},
+            {name: "Become A Member", link: "/"},
+            {name: "Student Discount", link: "/"},
+            {name: "Feedback", link: "/"},
+            {name: "Promo Codes", link: "/"},
+        ]
+    },
+    {
+        title: "Help",
+        links: [
+            {name: "Get Help", link: "/"},
+            {name: "Order Status", link: "/"},
+            {name: "Delivery", link: "/"},
+            {name: "Returns", link: "/"},
+            {name: "Payment Options", link: "/"},
+            {name: "Contact Us", link: "/"},
+            {name: "Reviews", link: "/"},
+            {name: "Nike Promo Codes Help", link: "/"},
+        ]
+    },
+    {
+        title: "Company",
+        links: [
+            {name: "About Nike", link: "/"},
+            {name: "News", link: "/"},
+            {name: "Careers", link: "/"},
+            {name: "Investors", link: "/"},
+            {name: "Sustainability", link: "/"},
+            {name: "Purpose", link: "/"},
+            {name: "UK Tax", link: "/"},
+            {name: "UK Pension Statement", link: "/"},
+            {name: "UK Pension SIP", link: "/"},
+        ]
+    }
+  ]
+
+ 
