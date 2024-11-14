@@ -72,7 +72,7 @@ const MySlider4 = () => {
     },
   };
   return (
-    <div className="mb-5">
+    <div className="mb-16">
       <div className="p-10">
         <div>
           <Title name="New In This Week" />

@@ -23,14 +23,18 @@ const Footer = () => {
             </div>
           ))}
         </div>
-        <div className="flex  text-white">
-          <BiWorld />
-          <p className="ml-1">United Kingdom</p>
+        <div className="flex text-white">
+          <div>
+            <BiWorld />
+          </div>
+          <div>
+            <p className="ml-1 leading-none">United Kingdom</p>
+          </div>
         </div>
       </div>
 
       <div className="flex gap-10 text-sm text-slate-500 p-10">
-      <p className="leading-normal">© 2024 Nike, Inc. All rights reserved</p>
+        <p className="leading-normal">© 2024 Nike, Inc. All rights reserved</p>
         {footerBottom.map((url) => (
           <p className="leading-normal cursor-pointer" key={url.name}>
             {url.name}
